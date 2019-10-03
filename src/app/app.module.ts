@@ -7,6 +7,7 @@ import { CheckoutComponent } from "./store/checkout.component";
 import { CartDetailComponent } from "./store/cartDetail.component";
 import { RouterModule } from "@angular/router";
 import { StoreFirstGuard } from "./storeFirst.guard";
+
 @NgModule({
     imports: [BrowserModule, StoreModule,
         RouterModule.forRoot([
